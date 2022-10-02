@@ -42,8 +42,6 @@ export default function Home() {
           content="I'm Marko Tomic, IT Engineer and Frontend Developer."
         />
         <meta name="twitter:creator" content="Marko Tomic" />
-        <meta property="og:image" content={Favimage} />
-        <meta name="twitter:image" content={Favimage} />
       </Head>
       <Navbar />
       <Hero />
