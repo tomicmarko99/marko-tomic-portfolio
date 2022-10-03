@@ -38,10 +38,7 @@ const Navbar = () => {
   };
 
   const saveFile = () => {
-    saveAs(
-      "http://download857.mediafire.com/d0d1upu6ddbg/8mlaqrb7fvioirm/markotomic.pdf",
-      "markotomic-cv.pdf"
-    );
+    saveAs("https://i.ibb.co/PrrVDXW/marko-tomic-cv.png", "marko-tomic-cv.png");
   };
 
   return (

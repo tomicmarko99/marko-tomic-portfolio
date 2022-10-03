@@ -10,10 +10,7 @@ import Typed from "react-typed";
 
 const Hero = () => {
   const saveFile = () => {
-    saveAs(
-      "http://download857.mediafire.com/d0d1upu6ddbg/8mlaqrb7fvioirm/markotomic.pdf",
-      "markotomic-cv.pdf"
-    );
+    saveAs("https://i.ibb.co/PrrVDXW/marko-tomic-cv.png", "marko-tomic-cv.png");
   };
   return (
     <div className="HeroSection bg-[url('https://i.ibb.co/V9863Yy/hero-background.png')] bg-center bg-no-repeat bg-cover w-full flex flex-col justify-center items-center px-4 py-[100px]">

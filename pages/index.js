@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
 import SeoFriendly from "../components/SeoFriendly";
 import Head from "next/head";
-import Favimage from "../public/favicon.ico";
 
 export default function Home() {
   return (
