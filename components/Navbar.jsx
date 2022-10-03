@@ -39,7 +39,7 @@ const Navbar = () => {
 
   const saveFile = () => {
     saveAs(
-      "https://download857.mediafire.com/whchl7wohwwg/8mlaqrb7fvioirm/markotomic.pdf",
+      "http://download857.mediafire.com/d0d1upu6ddbg/8mlaqrb7fvioirm/markotomic.pdf",
       "markotomic-cv.pdf"
     );
   };
