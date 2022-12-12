@@ -11,7 +11,7 @@ export const ProjectList = [
     title: "EagleCrypto - Cryptocurrency Tracker",
     image: Eagle,
     technologies: "React.js, Tailwind CSS, CoinGecko Api",
-    description: "EagleCrypto tracking all informations abou cryptocurrency in real time.",
+    description: "EagleCripto tracks all cryptocurrency information in real time.",
     github: "https://github.com/tomicmarko99/eagle-crypto",
     demo: "https://eagle-crypto.vercel.app/",
   },
