@@ -8,7 +8,7 @@ const SeoFriendly = () => {
   return (
     <div className=" w-full bg-[#fafafa] flex flex-col justify-center items-center px-4 pt-[20px] pb-[100px]">
       <div className="max-w-[1280px] w-full grid grid-cols-1 md:grid-cols-2 gap-[50px] items-center">
-        <Slide bottom duration={2000}>
+        <Slide bottom duration={300}>
           <div className="flex flex-col">
             <h1 className="text-4xl font-bold text-[#333333]">
               SEO Friendly Websites

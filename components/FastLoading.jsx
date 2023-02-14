@@ -11,7 +11,7 @@ const FastLoading = () => {
         <div className="flex items-center">
           <Image objectFit="contain" alt="Marko Tomic" src={FastL}></Image>
         </div>
-        <Slide bottom duration={2000}>
+        <Slide bottom duration={300}>
           <div className="flex flex-col">
             <h1 className="text-4xl font-bold text-[#333333]">
               Fast Loading Websites

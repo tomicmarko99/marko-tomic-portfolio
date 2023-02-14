@@ -11,7 +11,7 @@ const Features = () => {
     <div className="FeaturesSection bg-[#fafafa] w-full flex justify-center items-center px-4">
       <div className="FeaturesBox max-w-[1280px] w-full py-[50px] flex flex-col items-center">
         <h1 className="text-3xl font-bold text-[#333333]">Top Features</h1>
-        <Slide left>
+        <Slide left duration={300}>
           <div className="FeaturesGrid text-[#333333] bg-[#fff] p-[30px] rounded shadow-md grid grid-cols-1 md:grid-cols-4 w-full gap-[50px] mt-[40px]">
             <div className="Card flex flex-col">
               <div className="w-[30%] mb-[15px] flex">

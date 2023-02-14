@@ -59,7 +59,7 @@ const Hero = () => {
               <RiGithubFill />
             </a>
             <a
-              href="https://www.instagram.com/markotomic.js/"
+              href="https://www.instagram.com/jsxguru/"
               target="_blank"
               rel="noreferrer"
               className="bg-[#333333] hover:text-froggy-green p-3 rounded-full transition ease-in duration-150"
@@ -77,7 +77,7 @@ const Hero = () => {
           <div className="flex flex-col shadow-md p-3 rounded">
             <h3 className="text-4xl font-bold">
               <span className="text-[#009688]">
-                <CountUp start={0} end={100} duration={1} delay={1} />
+                <CountUp start={0} end={50} duration={1} delay={1} />
               </span>
               +
             </h3>
@@ -101,7 +101,7 @@ const Hero = () => {
           <div className="flex flex-col shadow-md p-3 rounded">
             <h3 className="text-4xl font-bold">
               <span className="text-[#009688]">
-                <CountUp start={0} end={3} duration={1} delay={1} />
+                <CountUp start={0} end={4} duration={1} delay={1} />
               </span>
               +
             </h3>
@@ -114,7 +114,7 @@ const Hero = () => {
           <div className="flex flex-col shadow-md p-3 rounded">
             <h3 className="text-4xl font-bold">
               <span className="text-[#009688]">
-                <CountUp start={0} end={4} duration={1} delay={1} />
+                <CountUp start={0} end={3} duration={1} delay={1} />
               </span>
             </h3>
             <p className="font-medium">

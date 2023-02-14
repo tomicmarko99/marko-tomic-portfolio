@@ -31,18 +31,19 @@ const AboutBox = () => {
         <div className="flex flex-col justify-center gap-5">
           <h2 className="text-xl text-[#333333] font-[500]">Summary</h2>
           <p>
-            I am an IT engineer with rich experience developing intuitive and
-            powerfull web applications. I&apos;ve been a React.js developer for
-            the past four years, and I&apos;ve completed over 130 profitable
-            projects. I have a broad knowledge of software engineering and
-            e-business. My experiences include cutting-edge technologies such as
-            React.js, Next.js, Tailwind.css, Bootstrap, MUI, Styled components,
-            MongoDB, Node.js, and many more.
+            As a highly experienced IT engineer, I specialize in developing
+            user-friendly and high-performance web applications using React.js.
+            With over four years of experience and over 50 successful projects,
+            I have honed my skills and gained a comprehensive understanding of
+            software engineering and e-commerce. My expertise in React.js and
+            familiarity with cutting-edge technologies such as Next.js,
+            Tailwind.css, Bootstrap, MUI, Styled Components, MongoDB, Node.js,
+            and others make me a valuable asset to any team.
           </p>
         </div>
         <div className="flex flex-col justify-center gap-5">
           <h2 className="text-xl text-[#333333] font-[500]">Skills</h2>
-          <Slide bottom duration={2000}>
+          <Slide bottom duration={300}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="CARD bg-[#ffffff] shadow-md rounded w-full px-5 py-2">
                 <p className="text-md font-[500] text-[#333333] mb-1">HTML</p>
