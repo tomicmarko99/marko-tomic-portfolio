@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { saveAs } from "file-saver";
 import {
   AiOutlineAlignRight,
   AiOutlineClose,
@@ -12,6 +11,7 @@ import { FaInfo } from "react-icons/fa";
 import { RiLinkedinFill, RiGithubFill, RiInstagramFill } from "react-icons/ri";
 import Link from "next/link";
 import styled from "styled-components";
+import pdfFile from "../public/Marko Tomic - Personal CV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -37,10 +37,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const saveFile = () => {
-    saveAs("https://i.ibb.co/PrrVDXW/marko-tomic-cv.png", "marko-tomic-cv.png");
-  };
-
   return (
     <NavBar
       style={{ backgroundColor: `${color}`, boxShadow: `${shadow}` }}
@@ -58,13 +54,11 @@ const Navbar = () => {
           <Link href="/projects">Projects</Link>
           <Link href="/about">About</Link>
           <div className="userAccBtns flex items-center gap-6 ">
-            <button
-              onClick={saveFile}
-              rel="noreferrer"
-              className="text-froggy-green flex items-center gap-1"
-            >
-              <AiOutlineCloudDownload /> CV
-            </button>
+            <a href={pdfFile} download="Marko Tomic - 2023 CV">
+              <div className="text-froggy-green flex items-center gap-1">
+                <AiOutlineCloudDownload /> CV
+              </div>
+            </a>
             <a
               href="tel:+381642478696"
               rel="noreferrer"
@@ -158,13 +152,13 @@ const Navbar = () => {
             </a>
           </div>
           <div className="userAccBtns text-sm flex flex-col items-center gap-4 border-t-2 border-b-2 p-5">
-            <button
-              onClick={saveFile}
-              rel="noreferrer"
+            <a
+              href={pdfFile}
+              download="Marko Tomic - 2023 CV"
               className="text-froggy-green font-[500] px-8 py-2 w-full text-center rounded-full border-[2px] border-froggy-green"
             >
               Download CV
-            </button>
+            </a>
             <a
               href="tel:+381642478696"
               rel="noreferrer"

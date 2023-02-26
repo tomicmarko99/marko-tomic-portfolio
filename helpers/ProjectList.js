@@ -9,7 +9,7 @@ import Airiuz from "../public/Airiuz.png";
 
 export const ProjectList = [
   {
-    title: "AIRIUZ - Real-Time Air Quality Index",
+    title: "AIRIUZ - World Air Quality Index",
     image: Airiuz,
     technologies:
       "React.js, Tailwind css, styled-components, Leaflet maps, Chart.js, WAQI API, Node.js, Express.js",

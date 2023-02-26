@@ -1,17 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import { saveAs } from "file-saver";
 import Avatar from "../public/avatarx.png";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiLinkedinFill, RiGithubFill, RiInstagramFill } from "react-icons/ri";
 import Slide from "react-reveal/Slide";
 import CountUp from "react-countup";
 import Typed from "react-typed";
+import pdfFile from "../public/Marko Tomic - Personal CV.pdf";
 
 const Hero = () => {
-  const saveFile = () => {
-    saveAs("https://i.ibb.co/PrrVDXW/marko-tomic-cv.png", "marko-tomic-cv.png");
-  };
   return (
     <div className="HeroSection bg-[url('https://i.ibb.co/V9863Yy/hero-background.png')] bg-center bg-no-repeat bg-cover w-full flex flex-col justify-center items-center px-4 py-[100px]">
       <div className="max-w-[1280px] w-full grid grid-cols-1 md:grid-cols-2 gap-[30px] items-center">
@@ -33,13 +30,13 @@ const Hero = () => {
             >
               Contact Me <FaTelegramPlane />
             </a>
-            <button
-              onClick={saveFile}
-              rel="noreferrer"
+            <a
+              href={pdfFile}
+              download="Marko Tomic - 2023 CV"
               className="text-sm text-[#333333] underline font-[500]"
             >
               Download CV
-            </button>
+            </a>
           </div>
           <div className="SOCIALBTNS text-2xl text-[#fafafa] flex items-center gap-[20px] mt-[40px] ">
             <a
