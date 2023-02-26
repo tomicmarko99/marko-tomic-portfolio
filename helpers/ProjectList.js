@@ -5,13 +5,25 @@ import Metafam from "../public/metafam-project.png";
 import Atom from "../public/atomqr-project.png";
 import Vitezz from "../public/vitezz-project.png";
 import Eagle from "../public/eagle-crypto.png";
+import Airiuz from "../public/Airiuz.png";
 
 export const ProjectList = [
+  {
+    title: "AIRIUZ - Real-Time Air Quality Index",
+    image: Airiuz,
+    technologies:
+      "React.js, Tailwind css, styled-components, Leaflet maps, Chart.js, WAQI API, Node.js, Express.js",
+    description:
+      "A web app that monitors air quality in cities worldwide and provides personalized recommendations for protection from pollution.",
+    github: "https://github.com/tomicmarko99/airiuz-air-quality-reports",
+    demo: "https://airiuz.vercel.app/",
+  },
   {
     title: "EagleCrypto - Cryptocurrency Tracker",
     image: Eagle,
     technologies: "React.js, Tailwind CSS, CoinGecko Api",
-    description: "EagleCripto tracks all cryptocurrency information in real time.",
+    description:
+      "EagleCripto tracks all cryptocurrency information in real time.",
     github: "https://github.com/tomicmarko99/eagle-crypto",
     demo: "https://eagle-crypto.vercel.app/",
   },
@@ -19,7 +31,8 @@ export const ProjectList = [
     title: "Hexullu APIs",
     image: Hexullu,
     technologies: "Next.js, Tailwind CSS, styled-components",
-    description: "Hexullu provides real-time APIs that simplify and speed up development.",
+    description:
+      "Hexullu provides real-time APIs that simplify and speed up development.",
     github: "https://github.com/tomicmarko99/hexullu/",
     demo: "https://hexullu.vercel.app/",
   },
@@ -27,7 +40,8 @@ export const ProjectList = [
     title: "M-Dental",
     image: DentalM,
     technologies: "Vite, React.js, Tailwind CSS",
-    description: "M-Dental is a dental clinic that will make you wear a smile with pride on your face.",
+    description:
+      "M-Dental is a dental clinic that will make you wear a smile with pride on your face.",
     github: "https://github.com/tomicmarko99/m-dental",
     demo: "https://m-dental.netlify.app/",
   },
@@ -42,7 +56,8 @@ export const ProjectList = [
     title: "Atom QR - QR code generator",
     image: Atom,
     technologies: "React.js",
-    description: "Atom is a QR code generator web app that generates QRs for any web location on the internet.",
+    description:
+      "Atom is a QR code generator web app that generates QRs for any web location on the internet.",
     demo: "https://atomqr.netlify.app/",
   },
   {
