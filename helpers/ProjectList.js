@@ -6,8 +6,18 @@ import Atom from "../public/atomqr-project.png";
 import Vitezz from "../public/vitezz-project.png";
 import Eagle from "../public/eagle-crypto.png";
 import Airiuz from "../public/Airiuz.png";
+import CryptoSphinx from "../public/CryptoSphinx.png";
 
 export const ProjectList = [
+  {
+    title: "CryptoSphinx - Telegram Bot",
+    image: CryptoSphinx,
+    technologies: "Node.js, Express.js, node-telegram-bot-api, CoinGecko API",
+    description:
+      "This bot can provide information about any cryptocurrency that you are interested in. Simply enter the name of the cryptocurrency you would like to learn about and the bot will provide you with its name, symbol, price in USD, and 24-hour price change percentage.",
+    github: "https://github.com/tomicmarko99/telegram-bot-cryptosphinx",
+    demo: "https://t.me/CryptoSphinxBot",
+  },
   {
     title: "AIRIUZ - World Air Quality Index",
     image: Airiuz,
@@ -21,7 +31,7 @@ export const ProjectList = [
   {
     title: "EagleCrypto - Cryptocurrency Tracker",
     image: Eagle,
-    technologies: "React.js, Tailwind CSS, CoinGecko Api",
+    technologies: "React.js, Tailwind CSS, CoinGecko API",
     description:
       "EagleCripto tracks all cryptocurrency information in real time.",
     github: "https://github.com/tomicmarko99/eagle-crypto",
